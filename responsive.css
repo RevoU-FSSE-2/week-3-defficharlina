@@ -5,7 +5,8 @@
   .desktop {
     display: block;
   }
-  
+
+
   @media only screen and (max-width: 1023px) {
     .mobile {
       display: block;
@@ -14,9 +15,5 @@
     .desktop {
       display: none;
     }
+}
 
-    .container {
-        grid-column: 1;
-        grid-row: 1;
-      }
-  }
